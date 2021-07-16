@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body background="https://wallup.net/wp-content/uploads/2018/03/19/544857-abstract-fractal-digital_art.jpg">
+<center>
+  <div class="btn btn-primary head"><img id="logo" src="https://www.freeiconspng.com/uploads/casestudy-zoom-icon-23.png">
+<hr>
+    <center>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 Header_label">
+       <b>We are using Mobilenet & GoogleLens as Models</b>  
+        <br>
+          <div class="btn hlabel">
+          Mobilenet model is trained on <br> <b>1.3 MILLION Images</b>
+          </div>
+        </div>
+    </center>
+    <br>
+  </div>
+  <br><br>
+  
+  <p class="btn btn-success Info">GoogleLens : 
+    <span></span> 
+  </p><br><br>
+  <p class="btn btn-success Info">MobileNet : 
+    <span id="MN1"></span> 
+  </p><br><br>
+  <img class="IDs" src="https://www.vangoghgallery.com/img/starry_night_full.jpg">
+  <br><br>
+  <p class="btn btn-primary Info">Accuracy : 
+    <span id="Accuracy1"></span> 
+    <hr>
+  </p>
+
+  <p class="btn btn-success Info">GoogleLens : 
+    <span></span> 
+  </p><br><br>
+  <p class="btn btn-success Info">MobileNet : 
+    <span id="MN2"></span> 
+  </p><br><br>
+  <img class="IDs" src="http://eu.steinway.com/fileadmin/user_upload/Fluegel_D_Black_03.png">
+  <br><br>
+  <p class="btn btn-primary Info">Accuracy : 
+    <span id="Accuracy2"></span> 
+    <hr>
+  </p>
+
+  <p class="btn btn-success Info">GoogleLens : 
+    <span></span> 
+  </p><br><br>
+  <p class="btn btn-success Info">MobileNet : 
+    <span id="MN3"></span> 
+  </p><br><br>
+  <img class="IDs" src="https://th.bing.com/th/id/R.8e070e9429503c7406fc40aa752b6564?rik=1Vhvk0Q88yXaSw&riu=http%3a%2f%2fwww.astrobirdphoto.com%2fhistory%2f90mm-80.jpg&ehk=GIS6eF5NFyOn9FQHc7etQPeEdD472WUjjyz%2bYXESlD8%3d&risl=&pid=ImgRaw">
+  <br><br>
+  <p class="btn btn-primary Info">Accuracy : 
+    <span id="Accuracy3"></span> 
+    <hr>
+  </p>
+<div class="btn btn-danger"><h3>Conclusion: </h3></div><hr>
+</center>
+
+<div class="copy_right_footer">
+<b>Developed By: Jason S.Rajesh</b>
+</div>
+
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
